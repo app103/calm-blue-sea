@@ -1,0 +1,183 @@
+  /* BEGIN Mokum.place tweaks */
+  /* ==UserStyle==
+@name           Calm Blue Sea for Mokum
+@namespace url(http://www.w3.org/1999/xhtml);
+@version        1.0.0
+@description    A theme for Mokum.place
+@author         app103 url(http://appsapps.info);
+==/UserStyle== */
+  @-moz-document domain("mokum.place") {
+
+      body {
+          background: rgb(241, 216, 233) !important;
+          background: -moz-linear-gradient(315deg, rgba(241, 216, 233, 1) 0%, rgba(225, 216, 241, 1) 20%, rgba(241, 225, 216, 1) 40%, rgba(231, 241, 216, 1) 60%, rgba(216, 241, 225, 1) 80%, rgba(216, 233, 241, 1) 100%) !important;
+          background: -webkit-linear-gradient(315deg, rgba(241, 216, 233, 1) 0%, rgba(225, 216, 241, 1) 20%, rgba(241, 225, 216, 1) 40%, rgba(231, 241, 216, 1) 60%, rgba(216, 241, 225, 1) 80%, rgba(216, 233, 241, 1) 100%) !important;
+          background: linear-gradient(315deg, rgba(241, 216, 233, 1) 0%, rgba(225, 216, 241, 1) 20%, rgba(241, 225, 216, 1) 40%, rgba(231, 241, 216, 1) 60%, rgba(216, 241, 225, 1) 80%, rgba(216, 233, 241, 1) 100%) !important;
+          margin-top: 1em !important;
+          Margin-bottom: 50px !important;
+      }
+      .box-body {
+          background-color: transparent !important;
+      }
+      .header {
+          background: #ffffff url("https://appsapps.info/stuff/mokum-themes/calm-blue-sea/mokum-logo2.png") no-repeat !important;
+          /*margin:5px !important; */
+          border: 1px solid #31708f !important;
+          border-radius: 25px !important;
+          padding: 1em 1em 1em 1.5em !important;
+          box-shadow: 2px 2px 2px grey !important;
+      }
+      .bem-mokum-logo__link {
+          opacity: 0.0 !important;
+      }
+
+      .bem-post__clikes-control {
+          opacity: 0.7 !important;
+      }
+      .container {
+          width: 100% !important;
+      }
+      .bem-post__author-name {
+          color: #31708f !important;
+          font-size: 1.3em !important;
+          font-weight: 800 !important;
+          line-height: 1.5em !important;
+      }
+      .bem-post__author-name a:link {
+          color: #31708f !important;
+          font-size: 1.3em !important;
+          font-weight: 800 !important;
+          line-height: 1.5em !important;
+      }
+      .bem-post__author-name a:visited {
+          color: #31708f !important;
+          font-size: 1.3em !important;
+          font-weight: 800 !important;
+          line-height: 1.5em !important;
+      }
+      .bem-post__author-name a:hover {
+          color: #245268 !important;
+          font-size: 1.3em !important;
+          font-weight: 800 !important;
+          line-height: 1.5em !important;
+          text-decoration: underline !important;
+      }
+      .bem-post__author-name a:active {
+          color: #31708f !important;
+          font-size: 1.3em !important;
+          font-weight: 800 !important;
+          line-height: 1.5em !important;
+      }
+      .js-post-container {
+          border: 1px solid #31708f !important;
+          margin: 1.5em 0em 1.5em 0em !important;
+          border-radius: 25px !important;
+          padding: 1em !important;
+          box-shadow: 2px 2px 2px grey !important;
+          background-color: #ffffff !important;
+      }
+      .box-footer {
+          background-color: transparent !important;
+      }
+      .box-header-timeline {
+          color: #31708f !important;
+          font-weight: 800 !important;
+          font-size: 1.3em !important;
+          line-height: 1.5em !important;
+          border-bottom: 1px #31708f solid !important;
+      }
+      .search form input.search-input,
+      .header .search form input.search-input:focus,
+      .table,
+      .Select-control,
+      input[type="text"],
+      textarea {
+          border-radius: 10px !important;
+          border: 1px solid #31708f !important;
+      }
+      .btn,
+      .btn-default:focus,
+      .btn-default.focus,
+      input.search-submit {
+          color: #fff !important;
+          background-color: #31708f !important;
+          border-radius: 10px !important;
+          border: 1px solid #31708f !important;
+          outline: 2px auto !important;
+          -webkit-focus-ring-color: #31708f !important;
+          outline-offset: -2px !important;
+          margin-left: 5px !important;
+      }
+      img {
+          border-radius: 25px !important;
+      }
+      .profile {
+          border: 2px solid #31708f !important;
+          margin: 1.5em 0em 1.5em 0em !important;
+          border-radius: 25px !important;
+          padding: 1em !important;
+          box-shadow: 2px 2px 2px grey !important;
+          background-color: #ffffff !important;
+      }
+      .create-post {
+          border: 2px solid #31708f !important;
+          margin: 1.5em 0em 1.5em 0em !important;
+          border-radius: 25px !important;
+          padding: 10px 30px 10px 30px !important;
+          box-shadow: 2px 2px 2px grey !important;
+          background-color: #ffffff !important;
+      }
+      h2,
+      .h2,
+      h3,
+      .h3,
+      h4,
+      .h4 {
+          color: #31708f !important;
+      }
+      .form-group {
+          border: 1px solid #31708f !important;
+          margin: 1.5em 0em 1.5em 0em !important;
+          border-radius: 25px !important;
+          padding: 1em !important;
+          box-shadow: 2px 2px 2px grey !important;
+          background-color: #ffffff !important;
+      }
+
+
+
+      .bem-sidebar-menu__title {
+          color: #31708f !important;
+          font-weight: 800 !important;
+          font-size: 1.3em !important;
+          line-height: 1.5em !important;
+          border-bottom: 1px #31708f solid !important;
+      }
+      li .fa-envelope,
+      li .fa-bookmark-o,
+      li .fa-lock,
+      li .fa-eye,
+      li .fa-asterisk {
+          color: #31708f;
+          font-weight: 800 !important;
+      }
+      .create-post .fa-lock {
+          color: #fff !important;
+          font-weight: 800 !important;
+      }
+      .bem-post__privacy-marker {
+          color: #31708f !important;
+          font-weight: 800 !important;
+      }
+
+      .mthe-post__comment_your {
+          background-color: #d8f1e1;
+      }
+      .mthe-post__comment_subscribed {
+          background-color: #ffff97;
+      }
+      .mthe-post__comment_others {
+          background-color: #fbc8df;
+      }
+      /* END mokum.place tweaks */
+  }

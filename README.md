@@ -1,6 +1,6 @@
 Calm Blue Sea
 -
-Stylus theme for Mokum.place
+Stylus theme for [Mokum.place](https://mokum.place)
 
 ![](screenshot.png)
 
